@@ -1,27 +1,3 @@
-# MEAM 620 for Spring 2020
-Course code for MEAM 620 Advanced Robotics in 2020.
-
-## Command Line Installation (with a virtual environment)
-
-Create a new python3 virtual environment and upgrade pip.
-```
-python3 -m venv ~/venv/my_new_venv
-source ~/venv/my_new_venv/bin/activate
-pip install --upgrade pip
-```
-
-While *still in the virtual environment*, install our package.
-```
-pip install -e ~/path/to/meam620-2020
-```
-
-In the future, access the virtual environment again with
-
-```
-source ~/venv/my_new_venv/bin/activate
-```
-Always do all your work inside the virtual environment.
-
 ## PyCharm Installation (with a virtual environment)
 
 ### Why can't I just use the command line?
@@ -109,29 +85,6 @@ Congratulations, you've installed MEAM620 on your computer!
 
 Take a look at this [PyCharm Quick Start Guide](https://www.jetbrains.com/help/pycharm/quick-start-guide.html) to ensure you're making full use of your IDE.
 
-## Demos
-
-The first project's starter code will run the quadrotor simulator, generate some plots of results, and play an animation.
-
-```
-python proj1/code/sandbox.py
-```
-
-## Troubleshooting
-
-Verify that the 'aerial-robotics' package has been installed by pip.
-
-```
-pip list
-```
-
-*The command ```pip list``` should only return about 12 items. If it returned a huge list, make sure you haven't manually added anything to your ```$PYTHONPATH``` (common for ROS users).*
-
-Report the user's operating system, python version, and required package versions.
-
-```
-python flightsim/system_info.py
-```
 
 ## Contributing
 
